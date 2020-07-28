@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-3">
+        <app-side-panel></app-side-panel>
+    </div>
+    <div class="col-md-9">
+        <div class="container">
+            <h1>Dummy Data</h1>
+        <div class="chartjs-container">
+            <canvas baseChart [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
+                [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType" [plugins]="lineChartPlugins"
+                (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">
+            </canvas>
+        </div>
+    </div>
+    </div>
+</div>

@@ -24,7 +24,10 @@
     "chart.js": "^2.9.3",
     "express": "^4.17.1",
     "ng2-charts": "^2.3.2",
+    "ng2-pdf-viewer": "^6.3.2",
+    "ngx-doc-viewer": "^1.2.3",
     "path": "^0.12.7",
+    "read-excel-file": "^4.0.6",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
